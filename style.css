@@ -1,0 +1,300 @@
+.container{
+	display: flex;
+	height: 100px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#title1{
+	margin-right: 20px;
+}
+
+#contact{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	height: 100px;
+    padding-right: 20px; 
+    width: 250px;
+    padding-left: 0px;
+    justify-content: flex-end;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+	align-self: center;
+}
+
+h2{
+	padding: 10px;
+}
+
+#content{
+	background-color: burlywood;
+	height: 587px;
+	width: 101%;
+}
+
+#f{
+	margin: 0px;
+	text-align: center;
+
+}
+#xy{
+	padding-left: 30px;
+	}
+.ul{
+	justify-content: flex-start;
+	font-size: 25px;
+	padding-left: 30px;
+}
+
+.w{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#l{
+	width: 650px;
+}
+
+#z{
+	
+	background-color:green;
+	border: 10px solid white;
+	font-size:30px;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+	margin-bottom: 10px
+}
+
+form{
+	margin: 15px;
+	background-color: white;
+	width: 350px;
+	height: 425px;
+	justify-content: flex-end;
+    align-items: center;
+	text-align: center;
+}
+
+#bt{
+	background-color: green;
+	border: 0px;
+	width: 100px;
+	height:45px;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 10px;
+}
+.b{
+	align-items: center;
+	margin: 5px;
+	justify-content: center;
+	text-align: center;
+	width: 320px;
+	font-size: 30px;
+	height: 40px;
+}
+.a{
+	align-items: center;
+	margin: 5px;
+	justify-content: center;
+	text-align: center;
+	width: 320px;
+	font-size: 30px;
+	height: 40px;
+}
+
+.c{
+	align-items: center;
+	margin : 5px;
+	justify-content: center;
+	text-align: center;
+	width: 320px;
+	font-size: 30px;
+	height: 40px;
+}
+.D{
+	justify-content: center;
+	text-align: center;
+	margin : 5px;
+	width: 320px;
+	font-size: 30px;
+	height: 90px;
+}
+
+#whatsapp{
+	background-color: #25d366;
+	border:0px;
+	width: 200px;
+	height:75px;
+	border-radius: 15px;
+	margin: 15px 170px;
+}
+	
+.whatsap{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+.whatsap1{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+#btn{
+	position: fixed;
+	bottom: 1px;
+	left: 1px;
+	color: black;
+	font-size: 23px;
+	background-color: #25d366;
+	border:0px;
+	width: 150px;
+	height:70px;
+	border-radius: 80px;
+	margin: 5px;
+}
+
+@media only screen and (max-width: 977px){
+	#btn{
+		display: none;
+	}
+}
+
+#TESTIMONIALS {
+	margin: 20px;
+}
+
+#lop {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.me{
+	text-align: center;
+	font-size: 20px;
+	width: 450px;
+}
+
+@media only screen and (max-width: 1035px) {
+	#content{
+		height: 1130px;
+	}
+	.w{
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+}
+
+.hr{
+
+	display: block;
+	width: 500px;
+	margin-top: 25px ;
+	margin-bottom: 1px;
+
+}
+
+.hr2{
+
+	display: block;
+	width: 500px;
+	margin: auto;
+}
+
+#meet{
+	height: 380px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#ja{
+	margin:11px 0px 0px 0px;
+	width: 380px;
+	height: 380px;
+	
+}
+#our{
+	text-align: center;
+	font-size: 25px;
+	width: 565px;
+}
+
+.area{
+	margin: 25px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+.li{
+	font-size: 27px;
+}
+
+.jl{
+	margin: 25px;
+	padding: 25px;
+}
+
+.je{
+   background-color:#ffdcaf;
+	width: 101%;
+	height: 590px;
+}
+@media only screen and (max-width: 977px)
+{
+	#meet{
+		height: 800px;
+	}
+}
+@media only screen and (max-width: 1126px){
+	.je{
+		height: 1030px;
+	}
+}
+
+.ABOUT{
+	width: 75%;
+	margin: auto;
+}
+
+.ABOUT h1{
+	font-size: 35px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.ABOUT p{
+	font-size: 25px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+}
+
+.free{
+	display: block;
+	margin: auto;
+	width: 300px;
+	height: 100px;
+	background-color:#b0ffb0;
+	border: 0px;
+	border-radius: 15px;
+} 
+
+.free a{
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+
+
+/*And my CSS completed*/
