@@ -60,7 +60,7 @@ h2{
 }
 
 #z{
-	
+
 	background-color:green;
 	border: 10px solid white;
 	font-size:30px;
@@ -134,7 +134,7 @@ form{
 	border-radius: 15px;
 	margin: 15px 170px;
 }
-	
+
 .whatsap{
 	text-decoration: none;
 	color: black;
@@ -164,6 +164,7 @@ form{
 	#btn{
 		display: none;
 	}
+	
 }
 
 #TESTIMONIALS {
@@ -210,7 +211,7 @@ form{
 }
 
 #meet{
-	height: 380px;
+	height: 420px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -219,7 +220,7 @@ form{
 	margin:11px 0px 0px 0px;
 	width: 380px;
 	height: 380px;
-	
+
 }
 #our{
 	text-align: center;
@@ -232,7 +233,7 @@ form{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	
+
 }
 .li{
 	font-size: 27px;
@@ -247,13 +248,20 @@ form{
    background-color:#ffdcaf;
 	width: 101%;
 	height: 590px;
+	margin-top: 25px;
 }
+
+
+
+
 @media only screen and (max-width: 977px)
 {
 	#meet{
-		height: 800px;
+		height: 900px;
 	}
 }
+
+
 @media only screen and (max-width: 1126px){
 	.je{
 		height: 1030px;
